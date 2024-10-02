@@ -1,0 +1,22 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.form_man {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #343a40; /* Dark color for heading */
+}
+
+.form-control {
+    border-radius: 5px;
+}
+
+.btn {
+    width: 100%;
+}

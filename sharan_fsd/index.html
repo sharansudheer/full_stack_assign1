@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentence Formation for Kids</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script> 
+</head>
+<body>
+    <header>
+        <h1>Learn Sentence Formation</h1>
+        <p>Drag the words into the sentence area to create a sentence!</p>
+    </header>
+    <main>
+        <div class="word-bank">
+            <span class="draggable" draggable="true">I</span>
+            <span class="draggable" draggable="true">am</span>
+            <span class="draggable" draggable="true">good</span>
+            <span class="draggable" draggable="true">a</span>
+            <span class="draggable" draggable="true">boy</span>
+            <span class="draggable" draggable="true">very</span>
+        </div>
+        <div class="sentence-area" id="sentenceArea" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <p>Drop words here to form a sentence!</p>
+        </div>
+    </main>
+    <footer>
+        <button onclick="checkSentence()">Check Sentence</button>
+        <button onclick="resetSentence()">Reset</button>
+    <a href="form.html"linkButton">Go to Form</a> 
+        <p id="result"></p>
+    </footer>
+</body>
+</html>
